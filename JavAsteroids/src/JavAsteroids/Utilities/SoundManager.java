@@ -23,19 +23,19 @@ public class SoundManager {
 
 	// pre-load all of the sounds
 
-	public static Clip bangLarge = SoundManager.getClip("bangLarge");
-	public static Clip bangMedium = SoundManager.getClip("bangMedium");
-	public static Clip bangSmall = SoundManager.getClip("bangSmall");
-	public static Clip beat1 = SoundManager.getClip("beat1");
-	public static Clip beat2 = SoundManager.getClip("beat2");
-	public static Clip extraShip = SoundManager.getClip("extraShip");
-	public static Clip fire = SoundManager.getClip("fire");
-	public static Clip saucerBig = SoundManager.getClip("saucerBig");
-	public static Clip saucerSmall = SoundManager.getClip("saucerSmall");
-	public static Clip thrust = SoundManager.getClip("thrust");
+	public static Clip bangLarge 	= SoundManager.getClip("../JavAsteroids/sounds/bangLarge");
+	public static Clip bangMedium 	= SoundManager.getClip("../JavAsteroids/sounds/bangMedium");
+	public static Clip bangSmall 	= SoundManager.getClip("../JavAsteroids/sounds/bangSmall");
+	public static Clip beat1 		= SoundManager.getClip("../JavAsteroids/sounds/beat1");
+	public static Clip beat2 		= SoundManager.getClip("../JavAsteroids/sounds/beat2");
+	public static Clip extraShip 	= SoundManager.getClip("../JavAsteroids/sounds/extraShip");
+	public static Clip fire 		= SoundManager.getClip("../JavAsteroids/sounds/fire");
+	public static Clip saucerBig 	= SoundManager.getClip("../JavAsteroids/sounds/saucerBig");
+	public static Clip saucerSmall 	= SoundManager.getClip("../JavAsteroids/sounds/saucerSmall");
+	public static Clip thrust 		= SoundManager.getClip("../JavAsteroids/sounds/thrust");
 
  	static {
-		for (int i = 0; i < bullets.length; i++) bullets[i] = getClip("fire");
+		for (int i = 0; i < bullets.length; i++) bullets[i] = getClip("../JavAsteroids/sounds/fire");
 	}
 
 	// methods which do not modify any fields
